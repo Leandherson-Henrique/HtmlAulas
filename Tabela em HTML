@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+<style>
+    table, th, td{
+        border: 1px solid black;
+    }
+
+</style>
+</head>
+<body>
+
+    <table>
+        <h1>TABELA DE DADOS</h1>
+        <th>ITEM</th>
+        <th></th>
+        <tr>
+        <th>Nome:</th>
+            <td>LEANDHERSON HENRIQUE DE SANTANA CABRAL</td>
+        </tr>
+        <tr>
+        <th>Local:</th>
+            <td>FICR-FACULDADE IMACULADA CONCEIÇÃO DO RECIFE</td>
+        </tr>
+        <tr>
+        <th>Faz:</th>
+            <td>CURSO SUPERIOR DE SISTEMAS PARA INTERNET</td>
+        </tr>
+        <tr>
+        <th>Objetivo:</th>
+            <td>ESTUDAR E ME FORMAR</td>
+        </tr>
+        <tr>
+        <th>Motivação</th>
+            <td>DAR UMA VIDA MELHOR PARA A MINHA FAMILIA</td>
+        </tr>
+    </table>
+
+        <table>
+            
+        </table>
+
+
+</body>
+</html>
