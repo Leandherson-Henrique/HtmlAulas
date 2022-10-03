@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        fieldset{
+            background-color: #cbeeae81;;
+        }
+        body{
+            align-self: center;
+        }
+        textarea{
+            resize: none;
+        }
+
+        .button{
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .button1{
+            background-color: green;
+        }
+        .button2{
+            background-color: rgb(212, 56, 28);
+        }
+    </style>
+
+
+</head>
+<body>
+
+
+<center>
+<fieldset style="width: 20px;align-self:center">
+
+    <legend>Fale conosco</legend>
+
+<form action="/action_page.php">
+
+<label for="name">Nome:</label>
+
+<input type="text" id="name" name="name"><br><br>
+
+<label for="email">Email:</label>
+
+<input type="text" id="email" name="email"><br><br>
+
+<p><label for="textarea">Comentário:</label></p>
+
+<textarea id="textArea1" name="Texto" rows="4" cols="50"></textarea><br><br>
+
+<label for="tipo">Tipo:</label>
+
+<select name="tipo" id="tipo">
+
+<option label="Sugestão"></option >
+
+<option  label="Reclamação"></option >
+
+<option  label="Dúvida"></option >
+
+<option  label="Outros"></option >
+
+</select>
+<br>
+<br>
+
+<button class="button button1">Enviar</button>
+
+<button class="button button2">Resetar</button>
+
+</form>
+
+</fieldset>
+
+</center>
+
+
+
+
+
+
+
+
+</body>
+</html>
