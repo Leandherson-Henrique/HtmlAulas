@@ -1,0 +1,95 @@
+class Computador{
+    private String placa;
+    private String memoria;
+    private String processador;
+    private String cooler;
+    private String fonte;
+    private int usuarios;
+    private float preco;
+    
+    public String getPlaca(){
+        return this.placa;
+    }
+    
+    public void setPlaca(String placa){
+        this.placa = placa;
+    }
+    
+    public String getMemoria(){
+        return this.memoria;
+    }
+    
+    public void setMemoria(String memoria){
+        this.memoria = memoria;
+    }
+    
+    public String getProcessador(){
+        return this.processador;
+    }
+    
+    public void setProcessador(String processador){
+        this.processador = processador;
+    }
+
+    public String getCooler(){
+        return this.cooler;
+    }
+    
+    public void setCooler(String cooler){
+        this.cooler = cooler;
+    }
+    
+    public String getFonte(){
+        return this.fonte;
+    }
+    
+    public void setFonte(String fonte){
+        this.fonte = fonte;
+    }
+    
+    public int getUsuarios(){
+        return this.usuarios;
+    }
+    
+    public void setUsuarios(int usuarios){
+        if(usuarios >= 0){
+            this.usuarios = usuarios;
+        }
+    }
+    
+    public float getPreco(){
+        return this.preco;
+    }
+    
+    public void setPreco(float preco){
+        if(preco >= 0){
+            this.preco = preco;
+        }
+    }
+}
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Computador c = new Computador();
+        c.setPlaca("ASUS TUF GAMING B450M-PRO S");
+        System.out.println("O modelo da minha placa e: " + c.getPlaca()+"\n");
+        c.setMemoria("ASGARD FREYER DDR4 3600mhz");
+        System.out.println("O modelo da minha memoria e: " + c.getMemoria()+"\n");
+        c.setProcessador("AMD RYSEN 5 5600");
+        System.out.println("O modelo do meu processador e: " + c.getProcessador()+"\n");
+        c.setCooler("COOLER MASTER AIR Ma610p");
+        System.out.println("O modelo do meu cooler e: " + c.getCooler()+"\n");
+        c.setFonte("PCYES ELECTRO V2 SERIES 80 PLUS 650W");
+        System.out.println("O modelo do meu cooler e: " + c.getFonte()+"\n");
+        c.setUsuarios(2);
+        System.out.println("O numero maximo de usuarios e:" + c.getUsuarios()+"\n");
+        c.setPreco(4500);
+        System.out.println("O preco total do meu computador foi:$" + c.getPreco()+"\n");
+    }
+}
+
