@@ -6,7 +6,7 @@ class Computador{
     private String fonte;
     private int usuarios;
     private float preco;
-    
+    private String setor;
     
     public String getPlaca(){
         return this.placa;
@@ -67,16 +67,12 @@ class Computador{
             this.preco = preco;
         }
     }
-}
-//----------------------construtor-------------------------------
-class Tecnico {
-    public String setor;
-    
-    public Tecnico(String setor){
+//-----------------------------------------construtor-----------------------------------------
+    public Computador(String setor){
         this.setor = setor;
     }
     
-    public Tecnico(){
+    public Computador(){
         this.setor = "Manutencao";
     }
     
@@ -108,11 +104,10 @@ class HelloWorld {
         System.out.println("O numero maximo de usuarios e:" + c.getUsuarios()+"\n");
         c.setPreco(4500);
         System.out.println("O preco total do meu computador foi:$" + c.getPreco()+"\n");
-        //----------------Construtor--------------------------------
-        Tecnico t = new Tecnico();
-        System.out.println("Setor:" + t.getSetor()+"\n");
-        Tecnico tec2 = new Tecnico("Leandherson");
-        System.out.println("Tecnico:" + tec2.getSetor()+"\n");
+        //-----------------------------------Construtor--------------------------------
+        System.out.println("Setor:" + c.getSetor()+"\n");
+        Computador comp2 = new Computador("Leandherson");
+        System.out.println("Tecnico:" + comp2.getSetor()+"\n");
     }
 }
 
