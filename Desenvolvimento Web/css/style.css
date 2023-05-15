@@ -1,1 +1,48 @@
-style.css
+body {
+	margin: 0 auto;
+	padding: 0;
+	color: #fff;
+	font-family: "calibri";
+}
+
+.header {
+	background: #043465;
+}
+
+.container {
+	margin: 0 10%;
+	padding: 0;
+}
+
+h1 {
+	background: cyan;
+	display: inline;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background: magenta;
+	display: inline; 
+	width: 70%;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: inline;
+}
+
+nav li {
+	display: inline;
+}
+
+h1 img {
+	width: 25%;
+	margin-top: 50px;
+}
+
+a.temp {
+	display: none; 
+}
